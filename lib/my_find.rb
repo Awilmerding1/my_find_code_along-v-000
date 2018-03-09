@@ -6,5 +6,8 @@ def my_find(collection)
   while i > collection.length 
   empty << yield(collection[i])
 end
-  empty.include?()
+  empty.include?(false)
+  false 
+else 
+  true
 end
